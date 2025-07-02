@@ -1,0 +1,23 @@
+{
+  "master": {
+    "local_addr": 1,
+    "response_timeout_seconds": 5,
+    "disable_unsolicited_on_startup": true,
+    "scan_intervals": {
+      "integrity_minutes": 1,
+      "exception_seconds": 5
+    },
+    "outstations": [
+      {
+        "id": "out1",
+        "ip": "192.168.36.98",
+        "port": 20000,
+        "remote_addr": 10
+      }
+    ]
+  },
+  "outstation": {
+    "enable": false,
+    "listen_port": 20000
+  }
+}
